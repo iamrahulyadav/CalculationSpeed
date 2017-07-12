@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/round_button_back"
+    tools:context="com.example.vishnu.calculationspeed.MyDialog">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="msg"
+        android:id="@+id/textView_amt"
+        android:layout_centerHorizontal="true"
+
+        android:gravity="center"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Highest Score:100"
+        android:id="@+id/textView_right"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_below="@+id/textView_amt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Your Score:100"
+        android:gravity="center"
+        android:id="@+id/textView_wrong"
+        android:textSize="15sp"
+        android:layout_below="@+id/textView_right"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="END TEST"
+        android:id="@+id/button_ok"
+        android:layout_below="@+id/textView_wrong"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/round_button_red"
+        android:layout_marginTop="15dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.vishnu.calculationspeed.MemoriesMaterial">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/action_bar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/textView_tool"
+            android:textSize="20sp"
+            android:paddingLeft="10dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/memo_toolbar"
+            android:gravity="left|center_vertical"/>
+        <android.support.design.widget.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/tabLayout"
+            app:tabMode="fixed"
+            android:background="@drawable/memo_toolbar"
+            app:tabGravity="fill"
+            app:tabTextAppearance="@style/MyTabStyleSimple"
+
+            ></android.support.design.widget.TabLayout>
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/viewPager"
+            android:background="#ffffff"
+            ></android.support.v4.view.ViewPager>
+
+    </android.support.design.widget.AppBarLayout>
+</RelativeLayout>

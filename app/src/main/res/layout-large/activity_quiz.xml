@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative_opt"
+    android:layout_height="match_parent"
+    android:background="@drawable/read_back"
+    tools:context="com.example.vishnu.calculationspeed.Quiz">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/textView_highScore"
+            android:text="Best Score:100/100"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/memo_toolbar"
+            android:gravity="left|center_vertical"/>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_Score"
+        android:text="Score:100/100"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/view"
+        android:textSize="40sp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:gravity="left|center_vertical"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="Timer"
+        android:layout_below="@+id/view"
+        android:id="@+id/textView_Timer"
+        android:layout_marginTop="5dp"
+
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/X"
+        android:textSize="50sp"
+        android:id="@+id/plus_x"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="50sp"
+        android:id="@+id/textView_opr"
+        android:textColor="#ffffff"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="180dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Y"
+        android:textSize="50sp"
+        android:id="@+id/plus_y"
+        android:textColor="#ffffff"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="230dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:textSize="50sp"
+        android:id="@+id/textView3"
+        android:textColor="#ffffff"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="370dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textText_sum"
+        android:textSize="50sp"
+        android:textColor="#ffffff"
+        android:text="_ _"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="410dp" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="340dp"
+        android:id="@+id/listView_opt"
+        android:layout_below="@+id/plus_x"
+        android:layout_marginTop="20dp"
+        android:dividerHeight="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:divider="#ffffff"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="End Test"
+        android:textSize="35sp"
+        android:textAllCaps="false"
+        android:id="@+id/button_end"
+        android:layout_below="@+id/listView_opt"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_false"
+        />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Start Quiz"
+        android:textSize="35sp"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:id="@+id/button_next"
+        android:layout_below="@+id/listView_opt"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="45dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_shape"
+        />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_below="@+id/button_end"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:background="@drawable/read_back"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/relativeLayout"
+    android:layout_height="600dp"
+    >
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/memo_toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/view">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Speed Test"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:paddingLeft="10dp"
+            android:gravity="left|center_vertical"/>
+
+
+    </android.support.design.widget.AppBarLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/X"
+        android:textSize="30sp"
+        android:id="@+id/plus_x"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plus"
+        android:textSize="30sp"
+        android:id="@+id/textView_plus"
+        android:textColor="#ffffff"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="60dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Y"
+        android:textSize="30sp"
+        android:id="@+id/plus_y"
+        android:textColor="#ffffff"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="90dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plus"
+        android:textSize="30sp"
+        android:id="@+id/textView_plus2"
+        android:textColor="#ffffff"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Z"
+        android:textSize="30sp"
+        android:id="@+id/plus_Z"
+        android:textColor="#ffffff"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="180dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/equal"
+        android:textSize="30sp"
+        android:id="@+id/textView3"
+        android:textColor="#ffffff"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="235dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:id="@+id/editText_sum"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="260dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/X"
+        android:textSize="30sp"
+        android:id="@+id/minus_x"
+        android:layout_below="@+id/plus_x"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/minus"
+        android:textSize="30sp"
+        android:id="@+id/textView5"
+        android:layout_alignTop="@+id/minus_x"
+        android:layout_alignLeft="@+id/textView_plus"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Y"
+        android:textSize="30sp"
+        android:id="@+id/minus_y"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignLeft="@+id/plus_y"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plus"
+        android:textSize="30sp"
+        android:id="@+id/textView1"
+        android:layout_alignTop="@+id/minus_y"
+        android:layout_alignLeft="@+id/textView_plus2"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Z"
+        android:textSize="30sp"
+        android:id="@+id/minus_z"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignLeft="@+id/plus_Z"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/equal"
+        android:textSize="30sp"
+        android:id="@+id/textView7"
+        android:layout_alignTop="@+id/minus_y"
+        android:layout_alignLeft="@+id/textView3"
+        android:textColor="#ffffff"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:id="@+id/editText_sub"
+        android:layout_alignLeft="@+id/editText_sum"
+        android:layout_alignBottom="@+id/textView7"
+        android:textSize="20sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/X"
+        android:textSize="30sp"
+        android:id="@+id/multi_x"
+        android:layout_below="@+id/minus_x"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/multiply"
+        android:textSize="30sp"
+        android:id="@+id/textView9"
+        android:layout_alignTop="@+id/multi_x"
+        android:layout_alignLeft="@+id/textView5"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Y"
+        android:textSize="30sp"
+        android:id="@+id/multi_y"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_alignLeft="@+id/minus_y"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/minus"
+        android:textSize="30sp"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/multi_y"
+        android:layout_alignLeft="@+id/textView1"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Z"
+        android:textSize="30sp"
+        android:id="@+id/multi_z"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_alignLeft="@+id/minus_z"
+        android:textColor="#ffffff"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/equal"
+        android:textSize="30sp"
+        android:id="@+id/textView11"
+        android:layout_alignTop="@+id/multi_y"
+        android:layout_alignLeft="@+id/textView7"
+        android:textColor="#ffffff"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:id="@+id/editText_mut"
+        android:layout_alignLeft="@+id/editText_sum"
+        android:layout_alignBottom="@+id/textView11"
+        android:textSize="20sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/X"
+        android:textSize="30sp"
+        android:id="@+id/divide_x"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/multi_x"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/divide"
+        android:textSize="30sp"
+        android:id="@+id/textView13"
+        android:layout_alignTop="@+id/divide_x"
+        android:layout_alignLeft="@+id/textView9"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Y"
+        android:textSize="30sp"
+        android:id="@+id/divide_y"
+        android:layout_alignTop="@+id/textView13"
+        android:layout_alignLeft="@+id/multi_y"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plus"
+        android:textSize="30sp"
+        android:id="@+id/textView4"
+        android:layout_alignTop="@+id/divide_y"
+        android:layout_alignLeft="@+id/textView2"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Z"
+        android:textSize="30sp"
+        android:id="@+id/divide_z"
+        android:layout_alignTop="@+id/textView13"
+        android:layout_alignLeft="@+id/multi_z"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/equal"
+        android:textSize="30sp"
+        android:id="@+id/textView15"
+        android:layout_alignTop="@+id/divide_y"
+        android:layout_alignLeft="@+id/textView11"
+        android:textColor="#ffffff"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:id="@+id/editText_div"
+        android:layout_alignLeft="@+id/editText_sum"
+        android:layout_alignBottom="@+id/textView15"
+        android:textSize="20sp"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        android:id="@+id/button_start"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        android:background="@drawable/button_shape"
+        android:textAllCaps="false"
+        android:layout_below="@+id/textView_ritAns"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:id="@+id/button_next"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        android:background="@drawable/button_false"
+        android:layout_below="@+id/textView_ritAns"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="End Test"
+        android:id="@+id/button_end"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        android:background="@drawable/button_false"
+        android:textAllCaps="false"
+        android:layout_below="@+id/textView_ritAns"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/timer"
+        android:id="@+id/textView_Timer"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/view"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:id="@+id/textView_ritAns"
+        android:layout_marginTop="30dp"
+        android:background="#00ff00"
+        android:layout_below="@+id/divide_x" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>
+    </ScrollView>

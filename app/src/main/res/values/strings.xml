@@ -1,0 +1,682 @@
+<resources>
+    <string name="app_name">Speedy Math</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3253643817495351/7864172426</string>
+    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="X">X</string>
+    <string name="Y">Y</string>
+    <string name="Z">Z</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiply">x</string>
+    <string name="equal">=</string>
+    <string name="divide">÷</string>
+    <string name="start">Start Test</string>
+    <string name="submit">Show Ans</string>
+    <string name="timer">Timer</string>
+    <string name="square">2</string>
+    <string name="quebec">3</string>
+    <string name="quemark">_ _ _</string>
+    <string name="hint">Ans</string>
+
+    <string-array name="mainMenu_name_res">
+        <item>Quiz</item>
+        <item>Practice Test</item>
+        <item>Performance</item>
+        <item>Memories</item>
+        <item>Notes</item>
+        <item>Rate App</item>
+    </string-array>
+
+    <string-array name="cat_tittle_res">
+        <item>Single Operator</item>
+        <item>Double Operator</item>
+        <item>Square Operator</item>
+        <item>Quebec Operator</item>
+        <item>Multi Operator</item>
+        <item>Mixed Operator</item>
+    </string-array>
+
+    <string-array name="simple_hint_res">
+        <item>A + B</item>
+        <item>A - B</item>
+        <item>A ÷ B</item>
+        <item>A x A</item>
+        <item>A x A</item>
+        <item>A + B</item>
+        <item>A + B + C= ?</item>
+
+        <item>A + B + C= ?</item>
+        <item>A x A x A= ?</item>
+        <item>A + B + CxD = ?</item>
+        <item>A+B=?,A+B+C=?</item>
+    </string-array>
+
+    <string-array name="level_tittle_simple">
+        <item>Easy 1</item>
+        <item>Easy 2</item>
+        <item>Easy 3</item>
+        <item>Easy 4</item>
+        <item>Easy 5</item>
+        <item>Easy 6</item>
+        <item>Easy 7</item>
+        <item>Easy 8</item>
+        <item>Easy 9</item>
+        <item>Easy 10</item>
+    </string-array>
+
+    <string-array name="level_tittle_tough">
+        <item>Difficult 1</item>
+        <item>Difficult 2</item>
+        <item>Difficult 3</item>
+        <item>Difficult 4</item>
+        <item>Difficult 5</item>
+        <item>Difficult 6</item>
+        <item>Difficult 7</item>
+        <item>Difficult 8</item>
+        <item>Difficult 9</item>
+        <item>Difficult 10</item>
+    </string-array>
+
+    <string-array name="level_img_tough">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+
+    </string-array>
+    <string-array name="level_img_simple">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+
+    </string-array>
+
+    <string-array name="level_hint_res">
+        <item>1 to 10 variable</item>
+        <item>1 to 20 variable</item>
+        <item>1 to 30 variable</item>
+        <item>1 to 40 variable</item>
+        <item>1 to 50 variable</item>
+        <item>1 to 60 variable</item>
+        <item>1 to 70 variable</item>
+        <item>1 to 80 variable</item>
+        <item>1 to 90 variable</item>
+        <item>1 to 100 variable</item>
+    </string-array>
+
+    <string-array name="memo_tittle_res">
+        <item>Num Square</item>
+        <item>Num Quebec</item>
+        <item>Two Power</item>
+        <item>Three Power</item>
+        <item>Divisibility</item>
+        <item>Frequency</item>
+
+    </string-array>
+    <string-array name="memo_imgs_res">
+        <item>S</item>
+        <item>Q</item>
+        <item>2</item>
+        <item>3</item>
+        <item>D</item>
+        <item>F</item>
+
+    </string-array>
+
+    <string-array name="notes_tittle_res">
+        <item>Integers</item>
+        <item>Addition</item>
+        <item>Subtraction</item>
+        <item>Multiplication</item>
+        <item>Division</item>
+        <item>Fractions</item>
+    </string-array>
+
+    <string-array name="notes_imgs_res">
+        <item>I</item>
+        <item>A</item>
+        <item>S</item>
+        <item>M</item>
+        <item>D</item>
+        <item>F</item>
+    </string-array>
+
+    <string-array name="memo_hint_res">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="two">
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="three">
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="num">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+    </string-array>
+
+    <string-array name="two_power">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+        <item>64</item>
+        <item>128</item>
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+        <item>8192</item>
+        <item>16384</item>
+        <item>32768</item>
+        <item>65536</item>
+        <item>131072</item>
+        <item>262144</item>
+        <item>524288</item>
+        <item>1048576</item>
+        <item>2097152</item>
+        <item>4194304</item>
+        <item>8388608</item>
+        <item>16777216</item>
+        <item>33554432</item>
+    </string-array>
+
+    <string-array name="three_power">
+        <item>0</item>
+        <item>3</item>
+        <item>9</item>
+        <item>27</item>
+        <item>81</item>
+        <item>243</item>
+        <item>729</item>
+        <item>2187</item>
+        <item>6561</item>
+        <item>19683</item>
+        <item>59049</item>
+        <item>177147</item>
+        <item>531441</item>
+        <item>1594323</item>
+        <item>4782969</item>
+        <item>14348907</item>
+        <item>43046721</item>
+        <item>129140163</item>
+        <item>387420489</item>
+        <item>1162261467</item>
+        <item>3486784401</item>
+        <item>10460353203</item>
+        <item>31381059609</item>
+        <item>94143178827</item>
+        <item>282429536481</item>
+        <item>847288609443</item>
+    </string-array>
+
+    <string-array name="num_square">
+        <item>0</item>
+        <item>1</item>
+        <item>4</item>
+        <item>9</item>
+        <item>16</item>
+        <item>25</item>
+        <item>36</item>
+        <item>49</item>
+        <item>64</item>
+        <item>81</item>
+        <item>100</item>
+        <item>121</item>
+        <item>144</item>
+        <item>169</item>
+        <item>196</item>
+        <item>225</item>
+        <item>256</item>
+        <item>289</item>
+        <item>324</item>
+        <item>361</item>
+        <item>400</item>
+        <item>441</item>
+        <item>484</item>
+        <item>529</item>
+        <item>576</item>
+        <item>625</item>
+    </string-array>
+
+    <string-array name="num_quebec">
+        <item>0</item>
+        <item>1</item>
+        <item>8</item>
+        <item>27</item>
+        <item>64</item>
+        <item>125</item>
+        <item>216</item>
+        <item>343</item>
+        <item>512</item>
+        <item>729</item>
+        <item>1000</item>
+        <item>1331</item>
+        <item>1728</item>
+        <item>2197</item>
+        <item>2744</item>
+        <item>3375</item>
+        <item>4096</item>
+        <item>4913</item>
+        <item>5832</item>
+        <item>6859</item>
+        <item>8000</item>
+        <item>9261</item>
+        <item>10648</item>
+        <item>12167</item>
+        <item>13824</item>
+        <item>15625</item>
+    </string-array>
+
+    <string-array name="memo_equal">
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+        <item>=</item>
+    </string-array>
+
+    <string-array name="divisibility_num">
+        <item>1:</item>
+        <item>2:</item>
+        <item>3:</item>
+        <item>4:</item>
+        <item>5:</item>
+        <item>6:</item>
+        <item>7:</item>
+        <item>8:</item>
+        <item>9:</item>
+        <item>10:</item>
+        <item>11:</item>
+        <item>12:</item>
+        <item>13:</item>
+        <item>14:</item>
+        <item>15:</item>
+        <item>16:</item>
+        <item>17:</item>
+        <item>18:</item>
+        <item>19:</item>
+        <item>20:</item>
+        <item>21:</item>
+        <item>22:</item>
+        <item>23:</item>
+        <item>24:</item>
+        <item>25:</item>
+    </string-array>
+
+    <string-array name="Divisibility">
+        <item>Any integer is divisible by 1</item>
+        <item>The last digit is even (0, 2, 4, 6, or 8)</item>
+        <item>Sum the digits. The result must be divisible by 3</item>
+        <item>The last two digits form a number that is divisible by 4</item>
+        <item>The last digit is 0 or 5</item>
+        <item>The number should be divisible by 2 and 3</item>
+        <item>Forming an alternating sum of blocks of three from right to left gives a multiple of 7</item>
+        <item>The last three digits are divisible by 8</item>
+        <item>Sum the digits. The result must be divisible by 9.</item>
+        <item>The last digit is 0</item>
+        <item>Form the alternating sum of the digits. The result must be divisible by 11</item>
+        <item>It is divisible by 3 and by 4</item>
+        <item>Form the alternating sum of blocks of three from right to left.The result must be divisible by 13</item>
+        <item>It is divisible by 2 and by 7</item>
+        <item>It is divisible by 3 and by 5</item>
+        <item>Add the last two digits to four times the rest. The result must be divisible by 16</item>
+        <item>Subtract 5 times the last digit from the rest. The result must be divisibl by 17</item>
+        <item>It is divisible by 2 and by 9</item>
+        <item>Add twice the last digit to the rest.The result must be divisibl by 19</item>
+        <item>It is divisible by 10, and the tens digit is even.</item>
+        <item>It is divisible by 3 and by 7</item>
+        <item>It is divisible by 2 and by 11</item>
+        <item>Add 7 times the last digit to the rest.The result must be divisibl by 23</item>
+        <item>It is divisible by 3 and by 8</item>
+        <item>The number formed by the last two digits is divisible by 25</item>
+    </string-array>
+
+    <string-array name="empty">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="integers">
+        <item>1:</item>
+        <item>2:</item>
+        <item>3:</item>
+        <item>4:</item>
+        <item>5:</item>
+        <item>6:</item>
+    </string-array>
+
+    <string-array name="integers_description">
+        <item>Natural Numbers => Counting numbers are called natural numbers. Thus 1,2,3,4,5. . . are all natural numbers</item>
+        <item>Whole Numbers => All natural numbers together with zero(0) are called whole numbers. Thus 0,1,2,3,4,5. . . are all whole numbers </item>
+        <item>Integer Numbers => All natural numbers, 0 and negative of counting numbers are called integers</item>
+        <item>Positive Integer => 1,2,3,4,5, . . etc are called positive integer</item>
+        <item>Negative Integer => -1,-2,-3,-4,-5, . . etc are called Negative Integer Numbers:</item>
+        <item>Zero Integer => Zero ia an integer which is neither positive nor negative</item>
+    </string-array>
+
+    <string-array name="integers_empty">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="addition">
+        <item>1:</item>
+        <item>2:</item>
+        <item>3:</item>
+        <item>4:</item>
+        <item>5:</item>
+    </string-array>
+
+    <string-array name="addition_description">
+        <item>Closure property of addition => The sum of two integers is always integer</item>
+        <item>Commutative law of addition => If "a" and "b" are two integer, then a + b = b + a</item>
+        <item>Associative law of addition => If "a","b","c" are three integers, then (a+b)+c = a+(b+c)</item>
+        <item>Existence of additive identity => For any integer a, we have a+0 = 0+a. Zero is called additive for integers</item>
+        <item>Existence of additive inverse => For any integer a, we have a+(-a) = (-a)+a = 0. Additive inverse of a is(-a)</item>
+    </string-array>
+
+    <string-array name="addition_empty">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="subtraction">
+        <item>1:</item>
+        <item>2:</item>
+        <item>3:</item>
+    </string-array>
+
+    <string-array name="subtraction_description">
+        <item>Closure property of subtraction => The subtraction of any two integers is always integer</item>
+        <item>Commutative law of subtraction =>  If "a" and "b" are two integer, then a - b ≠ b - a. SO subtraction of integers is not commutative</item>
+        <item>Associative law of subtraction => If "a","b","c" are three integers, then (a-b)-c ≠ a-(b-c). SO subtraction of integers is not associative</item>
+    </string-array>
+
+    <string-array name="subtraction_empty">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="multi">
+        <item>1:</item>
+        <item>2:</item>
+        <item>3:</item>
+        <item>4:</item>
+        <item>5:</item>
+        <item>6:</item>
+        <item>7:</item>
+        <item>8:</item>
+        <item>9:</item>
+    </string-array>
+
+    <string-array name="multi_description">
+        <item>Multiplication rule 1 => To find the product of two integers with unlike signs, we find the product their values regardless of their signs and give a minus sign to the product</item>
+        <item>Multiplication rule 2 => To find the product of two integers with same signs, we find the product their values regardless of their signs and give a plus sign to the product</item>
+        <item>Closure property of multiplication => The product of two integers is always integer</item>
+        <item>Commutative law of multiplication => If "a" and "b" are two integer, then a x b = b x a</item>
+        <item>Associative law of multiplication => If "a","b","c" are three integers, then (axb)xc = ax(bxc)</item>
+        <item>Distribution law of multiplication => If "a","b","c" are three integers, then ax(b+c) = (axb)+(axc)</item>
+        <item>Existence of multiplicative identity => For any integer a, we have ax1 = ax1=a. "1" is called multiplicative identity for integers</item>
+        <item>Existence of multiplicative inverse => For any integer a, we have ax(1/a) = (1/a)xa = 1. multiplicative inverse of a is(1/a)</item>
+        <item>Property of zero => For every integer a, we have (ax0)=(0xa)=0.</item>
+    </string-array>
+
+    <string-array name="multi_empty">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="division">
+        <item>1:</item>
+        <item>2:</item>
+        <item>3:</item>
+        <item>4:</item>
+        <item>5:</item>
+        <item>6:</item>
+        <item>7:</item>
+        <item>8:</item>
+        <item>9:</item>
+    </string-array>
+
+    <string-array name="division_description">
+        <item>Division rule 1 => For dividing one integer to the other,the two having unlike signs,we divide their values regardless of their signs and give a minus sign to the quotient</item>
+        <item>Division rule 2 => For dividing one integer to the other,the two having same signs,we divide their values regardless of their signs and give a plus sign to the quotient</item>
+        <item>Closure property of division => If "a" and "b" are two integer then (a÷b) is not necessarily an integer</item>
+        <item>Commutative law of division => If "a" and "b" are two integer, then a ÷ b ≠ b ÷ a</item>
+        <item>Associative law of division => If "a","b","c" are three integers, then (a÷b)÷c ≠ a÷(b÷c)</item>
+        <item>Distribution law of division => If "a","b","c" are three integers, then (a+b)÷c = (a÷c)+(b÷c) but a÷(b+c) ≠ (a÷b)+(a÷c) </item>
+        <item>Existence of divisibility identity => If "a" is am any integer and a≠0,then a÷1=a,"1" is called divisibility identity for integers</item>
+        <item>Existence of divisibility inverse => If "a" is am any integer and a≠0,then a÷a=1, divisibility inverse of a is(1/a)</item>
+        <item>Property of zero => If "a" is am any integer and a≠0,then 0÷a=0 but a÷0 is not meaningful</item>
+    </string-array>
+
+    <string-array name="division_empty">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="fraction">
+        <item>1:</item>
+        <item>2:</item>
+        <item>3:</item>
+        <item>4:</item>
+        <item>5:</item>
+    </string-array>
+
+    <string-array name="fraction_description">
+        <item>Decimal fraction => A fraction whose denominator is any of the numbers 10,100,1000 etc is called decimal fraction:</item>
+        <item>Vulgar fraction => A fraction whose denominator is a whole number,other than 10,100,1000 etc is called vulgar fraction:</item>
+        <item>Proper fraction => A fraction whose numerator is less than its denominator, is called proper fraction:</item>
+        <item>Improper fraction => A fraction whose numerator is more than or equal to its denominator, is called improper fraction:</item>
+        <item>Mixed fraction => A number which can be expressed as the sum of a natural number and a proper fraction, is called a mixed fraction:</item>
+    </string-array>
+
+    <string-array name="fraction_empty">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="fr_num">
+        <item>2.</item>
+        <item>3.</item>
+        <item>4.</item>
+        <item>5.</item>
+        <item>6.</item>
+        <item>7.</item>
+        <item>8.</item>
+        <item>9.</item>
+    </string-array>
+    <string-array name="frequency">
+        <item>Frequency of 2 is 4 means after 2^4 first digit of resultant number repeat itself like 2^5=32, first digit is 2. 2^6=64 first digit is 4. So we can see first digit repeat it self after its frequency </item>
+        <item>Frequency of 3 is 4 means after 3^4 first digit of resultant number repeat itself like 3^5=243, first digit is 3. 2^6=729 first digit is 9. So we can see first digit repeat it self after its frequency</item>
+        <item>Frequency of 4 is 2 means after 4^2 first digit of resultant number repeat itself like 4^3=64, first digit is 4. 4^4=256 first digit is 6. So we can see first digit repeat it self after its frequency</item>
+        <item>Frequency of 5 is 1 means first digit is always 5</item>
+        <item>Frequency of 6 is 1 means first digit is always 6</item>
+        <item>Frequency of 7 is 4 means after 7^4 first digit of resultant number repeat itself like 7^5=16807, first digit is 7. So we can see first digit repeat it self after its frequency</item>
+        <item>Frequency of 8 is 4 means after 8^5 first digit of resultant number repeat itself like 8^5=32768, first digit is 8. So we can see first digit repeat it self after its frequency</item>
+        <item>Frequency of 9 is 2 means after 9^2 first digit of resultant number repeat itself like 9^3=729, first digit is 9. So we can see first digit repeat it self after its frequency</item>
+    </string-array>
+    <string-array name="fr_empty">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+</resources>

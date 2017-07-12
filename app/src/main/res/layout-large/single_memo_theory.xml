@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="2"
+        android:id="@+id/textView_num"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="50sp"
+        android:textColor="#ffffff"
+        android:gravity="left|center_vertical"
+        android:layout_gravity="center_vertical" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="2"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:id="@+id/textView_power"
+        android:gravity="center_vertical"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/textView_num"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="="
+        android:textSize="50dp"
+        android:layout_toRightOf="@+id/textView_num"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView_equal"
+        android:textColor="#ffffff"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="4"
+        android:textSize="50sp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/textView_equal"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:textColor="#ffffff"
+        android:id="@+id/textView_result" />
+
+</RelativeLayout>

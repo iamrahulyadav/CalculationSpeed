@@ -1,0 +1,118 @@
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/relative_opt"
+        android:layout_height="match_parent"
+        android:background="@drawable/read_back"
+        tools:context="com.example.vishnu.calculationspeed.Quiz">
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="timer"
+            android:id="@+id/textView_Timer"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:textSize="60sp"
+            android:id="@+id/plus_x"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="y"
+            android:textSize="40sp"
+            android:id="@+id/textView_power"
+            android:textColor="#ffffff"
+            android:layout_marginTop="100dp"
+            android:layout_toRightOf="@+id/plus_x"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:textSize="60sp"
+            android:id="@+id/textView3"
+            android:textColor="#ffffff"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="140dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textText_sum"
+            android:textSize="40sp"
+            android:textColor="#ffffff"
+            android:text="_ _ _"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="210dp" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="340dp"
+            android:id="@+id/listView_opt"
+            android:layout_below="@+id/plus_x"
+            android:layout_marginTop="40dp"
+            android:dividerHeight="4dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:text="End Test"
+            android:textSize="35sp"
+            android:textAllCaps="false"
+            android:id="@+id/button_end"
+            android:layout_below="@+id/listView_opt"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="90dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_shape"
+            />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:text="Start Quiz"
+            android:textSize="35sp"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:id="@+id/button_next"
+            android:layout_below="@+id/listView_opt"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="90dp"
+            android:textColor="#ffffff"
+
+            android:background="@drawable/button_shape"
+            />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+    </RelativeLayout>
+
